@@ -15,15 +15,7 @@ export function Listing() {
 
     console.log(data)
 
-    function ir(){
-      for(let i of data.results){
-        while(i < 3){
-          console.log(data.results.name)
-        }
-        // console.log(data)
-      }
-    }
-    // ir()
+
     
   if (isLoading) {
     return <div>Loading...</div>
@@ -62,6 +54,8 @@ export function Listing() {
 
   return null
 }
+
+
 
 
 
